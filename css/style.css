@@ -21,6 +21,7 @@ body {
   --color-cloud: rgba(244, 244, 253, 1);
   --color-cornflower: rgba(231, 233, 252, 1);
   --color-slate: rgba(67, 68, 85, 1);
+  --color-lightslate: #8E8F99;
 
   --font-roboto: "Roboto", sans-serif;
   --font-raleway: "Raleway", sans-serif;
@@ -146,37 +147,19 @@ img{
 }
 
 /* HERO */
-
-
-/* bacground-image: linear-gradient (to right, rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)), url( шлях до вашого зображення) ; */
-
- 
 .hero {
-  /* background-color: var(--color-navyblue); */
-
-  background: linear-gradient(
+  background-image: linear-gradient(
     rgba(46, 47, 66, 0.7) , 
     rgba(46, 47, 66, 0.7)),
      url('../images/bg-main_page.jpg');  
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center;
+  background-position:  center;
   color: var(--color-white);
   padding: 188px 0;
   text-align: center;
 
 }
-
-/* .bg{
-  background: linear-gradient(
-    rgba(46, 47, 66, 0.7) , 
-    rgba(46, 47, 66, 0.7)),
-    url('../images/bg-main_page.jpg');  
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  
-} */
 
 
 .order-service {
@@ -269,6 +252,39 @@ img{
 
 .our-team-card-role {
   margin-top: 8px;
+}
+
+
+/* CUSTOMERS */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-customer-1 {
+  width: 1.857421875em;
+}
+
+.customers{
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.customers-list{
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.customers-list-item{
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--color-lightslate);
+  border-radius: 4px;
 }
 
 

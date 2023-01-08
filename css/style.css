@@ -269,20 +269,28 @@ img{
   margin-top: 8px;
 }
 
+.our-team-social-media-list{
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.our-team-social-media-list-item{
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-icons-ot{
+  width: 16px;
+  height: 16px;
+}
 
 /* CUSTOMERS */
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-.icon-customer-1 {
-  width: 1.857421875em;
-}
-
 .customers{
   padding-top: 130px;
   padding-bottom: 120px;
@@ -295,7 +303,7 @@ img{
   gap: 24px;
 }
 
-.customers-list-item{
+.svg-icons-customers{
   width: 168px;
   height: 88px;
   border: 1px solid var(--color-lightslate);

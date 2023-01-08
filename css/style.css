@@ -330,7 +330,42 @@ img{
   margin-top: 16px;
 }
 
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
 
+.footer-social-media-list{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.footer-social-media-list-item{
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-media{
+  /* width: 264px; */
+  color: var(--color-cornflower);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* margin-top: 16px; */
+}
+
+.svg-icons-footer{
+  width: 24px;
+  height: 19.5px;
+}
 
 
 /* PORTFOLIO */

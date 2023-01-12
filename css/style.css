@@ -293,6 +293,12 @@ img{
   align-items: center;
 }
 
+.our-team-social-media-link:hover,
+.our-team-social-media-link:focus{
+  background-color: var(--color-ocean);
+  border: transparent;
+}
+
 .svg-icons-ot{
   width: 16px;
   height: 16px;
@@ -303,7 +309,7 @@ img{
 
 /* CUSTOMERS */
 .customers{
-  padding-top: 130px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -376,10 +382,6 @@ img{
 }
 
 .footer-social-media-list-item{
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.1);;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,12 +391,16 @@ img{
 .footer-social-media-link{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
 }
 
-.footer-social-media-list-item:hover,
-.footer-social-media-list-item:focus{
+.footer-social-media-link:hover,
+.footer-social-media-link:focus{
   background-color: var(--color-green);
+  border: transparent;
 }
 
 .footer-social-media{
@@ -402,6 +408,7 @@ img{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .svg-icons-footer{
@@ -436,8 +443,8 @@ img{
   gap: 24px;
 }
 
-.filter-list-item :hover,
-.filter-list-item:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
   border-color: transparent;
